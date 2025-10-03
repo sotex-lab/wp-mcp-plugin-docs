@@ -1,0 +1,27 @@
+{% macro docs_navigation(page) %}
+<div class="docs-navigation d-flex justify-content-between">
+  {# Previous page #}
+  {% if page.extra.prev %}
+    {% set prev = get_page(path=page.extra.prev) %}
+    <a href="{{ prev.permalink }}">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          &larr; {{ prev.title }}
+        </div>
+      </div>
+    </a>
+  {% endif %}
+
+  {# Next page #}
+  {% if page.extra.next %}
+    {% set next = get_page(path=page.extra.next) %}
+    <a class="ms-auto" href="{{ next.permalink }}">
+      <div class="card my-1">
+        <div class="card-body py-2">
+          {{ next.title }} &rarr;
+        </div>
+      </div>
+    </a>
+  {% endif %}
+</div>
+{% endmacro %}
