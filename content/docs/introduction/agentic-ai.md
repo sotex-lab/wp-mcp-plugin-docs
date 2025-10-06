@@ -18,6 +18,10 @@ next = "docs/introduction/agentic-ai-does.md"
 
 Agentic AI for WooCommerce is an advanced plugin that connects your online store with modern AI assistants and agents through the Model Context Protocol (MCP).
 
+Agentic AI for WooCommerce is an advanced plugin that connects your online store with modern AI assistants and agents through the Model Context Protocol (MCP).
+
+Agentic AI for WooCommerce is an advanced plugin that connects your online store with modern AI assistants and agents through the Model Context Protocol (MCP).
+
 
 Think of it as the future of SEO: search is shifting from traditional keywords to AI-powered answers. Users now rely on ChatGPT, Claude, and other LLMs to find products, and even Google is pushing AI-generated results first. With Agentic AI, your WooCommerce store becomes **AI-ready**—making it easier for these systems to understand, recommend, and rank your products.
 
