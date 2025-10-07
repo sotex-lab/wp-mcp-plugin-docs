@@ -1,5 +1,5 @@
 +++
-title = "What Agentic AI for WooCommerce Does"
+title = "What MCP Integrate does"
 description = ""
 date = 2021-05-01T08:20:00+00:00
 updated = 2021-05-01T08:20:00+00:00

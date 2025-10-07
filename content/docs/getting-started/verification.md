@@ -17,7 +17,7 @@ prev = "docs/getting-started/troubleshooting.md"
 
 To confirm the plugin is working correctly:
 
-1. Open the **AI for WooCommerce > Status** page in your admin panel.
+1. Open the **MCP Integrate > Status** page in your admin panel.
 
 2. Check that your store’s **public endpoints** (products, categories, posts) are accessible.
 

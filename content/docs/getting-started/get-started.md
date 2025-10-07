@@ -1,5 +1,5 @@
 +++
-title = "Getting Started with Agentic AI for WooCommerce"
+title = "Getting Started with MCP Integrate"
 description = "Contribute to AdiDoks, improve documentation, or submit to showcase."
 date = 2021-05-01T18:10:00+00:00
 updated = 2021-05-01T18:10:00+00:00
@@ -28,7 +28,7 @@ Before you begin, make sure you have:
 
 ### Installation Steps
 
-1. In your WordPress admin, go to **Plugins > Add Plugin > Find “AI for WooCommerce”.**
+1. In your WordPress admin, go to **Plugins > Add Plugin > Find “MCP Integrate”.**
 
 2. Click **Install Now.**
 

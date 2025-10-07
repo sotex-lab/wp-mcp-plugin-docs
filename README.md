@@ -1,4 +1,4 @@
-# Mcp wordpress plugin documentation
+# Mcp Integrate documentation
 
 ## Requirements
 Install [Zola](https://www.getzola.org/documentation/getting-started/installation/) ≥ 0.15.0

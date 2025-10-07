@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://sotex-lab.github.io/wp-mcp-plugin-docs/"
-title = "Mcp wordpress plugin"
+title = "MCP Integrate"
 description = "Agentic AI for WooCommerce is an advanced plugin that connects your online store with modern AI assistants and agents through the Model Context Protocol (MCP)."
 
 # The default language; used in feeds and search index

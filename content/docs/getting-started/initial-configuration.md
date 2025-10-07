@@ -17,7 +17,7 @@ next = "docs/getting-started/troubleshooting.md"
 +++
 
 After activation, configure the plugin:
-1. Go to **Settings > AI for WooCommerce** in your WordPress admin panel.
+1. Go to **Settings > MCP Integrate** in your WordPress admin panel.
 
 2. **Enable MCP functionality** (Model Context Protocol).
 
