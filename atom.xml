@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>MCP Integrate</title>
+    <subtitle>Agentic AI for WooCommerce is an advanced plugin that connects your online store with modern AI assistants and agents through the Model Context Protocol (MCP).</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://mcp-integrate.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://mcp-integrate.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-05-01T18:20:00+00:00</updated>
+    <id>https://mcp-integrate.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Initial Configuration</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/initial-configuration/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/initial-configuration/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/initial-configuration/">&lt;p&gt;After activation, configure the plugin:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Go to &lt;strong&gt;Settings &amp;gt; MCP Integrate&lt;&#x2F;strong&gt; in your WordPress admin panel.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enable MCP functionality&lt;&#x2F;strong&gt; (Model Context Protocol).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Configure &lt;strong&gt;authentication settings.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Select which &lt;strong&gt;tools and resources&lt;&#x2F;strong&gt; to expose (products, categories, posts, etc.).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Troubleshooting</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/troubleshooting/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/troubleshooting/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/troubleshooting/">&lt;h3 id=&quot;common-issues&quot;&gt;Common Issues&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plugin won’t activate:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verify PHP version (must be &lt;strong&gt;8.0+&lt;&#x2F;strong&gt;).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Check WordPress version (must be &lt;strong&gt;6.4+&lt;&#x2F;strong&gt;).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Permission errors:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Check file permissions on the plugin directory.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ensure your web server can read&#x2F;write plugin files.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;UI errors or missing interface elements:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Run &lt;code&gt;npm install&lt;&#x2F;code&gt; and then &lt;code&gt;npm run build&lt;&#x2F;code&gt; inside the plugin directory to rebuild assets.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Verification</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/verification/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/verification/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/verification/">&lt;p&gt;To confirm the plugin is working correctly:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Open the &lt;strong&gt;MCP Integrate &amp;gt; Status&lt;&#x2F;strong&gt; page in your admin panel.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Check that your store’s &lt;strong&gt;public endpoints&lt;&#x2F;strong&gt; (products, categories, posts) are accessible.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Use the &lt;strong&gt;Test MCP Connection&lt;&#x2F;strong&gt; button to verify compatibility with AI assistants (e.g., Claude).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ensure no customer or private data appears in the exposed endpoints.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Getting Started with MCP Integrate</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/get-started/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/get-started/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/get-started/">&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h2&gt;
+&lt;p&gt;Set up the plugin in just a few minutes.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;&#x2F;h3&gt;
+&lt;p&gt;Before you begin, make sure you have:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WordPress 6.4&lt;&#x2F;strong&gt; or later&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;PHP 8.0&lt;&#x2F;strong&gt; or later&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;WooCommerce plugin&lt;&#x2F;strong&gt; installed and activated&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;installation-steps&quot;&gt;Installation Steps&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In your WordPress admin, go to &lt;strong&gt;Plugins &amp;gt; Add Plugin &amp;gt; Find “MCP Integrate”.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Install Now.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Once installed, click &lt;strong&gt;Activate&lt;&#x2F;strong&gt; to enable the plugin.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What MCP Integrate does</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/introduction/agentic-ai-does/"/>
+        <id>https://mcp-integrate.com/docs/introduction/agentic-ai-does/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/introduction/agentic-ai-does/">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Boosts AI-First SEO&lt;&#x2F;strong&gt; – Prepares your WooCommerce store for the new era of &lt;strong&gt;AI-driven search results&lt;&#x2F;strong&gt; (ChatGPT, Claude, Google AI Overviews, etc.).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Instant AI Connection&lt;&#x2F;strong&gt; – Connects your store to AI assistants in &lt;strong&gt;5 minutes&lt;&#x2F;strong&gt; via the &lt;strong&gt;Model Context Protocol (MCP).&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;SEO-Ready Store Data&lt;&#x2F;strong&gt; – Provides &lt;strong&gt;read-only access&lt;&#x2F;strong&gt; to products, orders, categories, shipping, payments, posts, and pages in a &lt;strong&gt;structured, AI-friendly format.&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy by Design&lt;&#x2F;strong&gt; – Ensures &lt;strong&gt;zero customer data exposure&lt;&#x2F;strong&gt;, sharing only public information needed for ranking and discovery.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Future-Proof Visibility&lt;&#x2F;strong&gt; – Fully compatible with &lt;strong&gt;Claude AI&lt;&#x2F;strong&gt; and other MCP-enabled systems, keeping your store ahead in the &lt;strong&gt;next generation of search.&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MCP Integrate</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/introduction/agentic-ai/"/>
+        <id>https://mcp-integrate.com/docs/introduction/agentic-ai/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/introduction/agentic-ai/">&lt;p&gt;MCP Integrate is an advanced plugin that connects your online store with modern AI assistants and agents through the Model Context Protocol (MCP).&lt;&#x2F;p&gt;
+&lt;p&gt;Think of it as the future of SEO: search is shifting from traditional keywords to AI-powered answers. Users now rely on ChatGPT, Claude, and other LLMs to find products, and even Google is pushing AI-generated results first. With MCP Integrate, your WooCommerce store becomes &lt;strong&gt;AI-ready&lt;&#x2F;strong&gt;—making it easier for these systems to understand, recommend, and rank your products.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI-Optimized Visibility&lt;&#x2F;strong&gt; – Ensure your store is discoverable in AI-driven search results.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Standardized Data Acces&lt;&#x2F;strong&gt; – Products, orders, categories, shipping, payments, posts, and pages are exposed in a structured, AI-friendly way.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Secure by Design&lt;&#x2F;strong&gt; – The plugin is read-only: it gives AI systems safe access to public store data while protecting sensitive customer information.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Future-Proof Marketing&lt;&#x2F;strong&gt; – Position your WooCommerce store at the top of the new AI-powered search landscape.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;MCP Integrate is more than a plugin—it’s your &lt;strong&gt;bridge to AI search and discovery.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
