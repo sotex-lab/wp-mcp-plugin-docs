@@ -1,6 +1,6 @@
 +++
 title = "Getting Started with MCP Integrate"
-description = "Contribute to AdiDoks, improve documentation, or submit to showcase."
+description = ""
 date = 2021-05-01T18:10:00+00:00
 updated = 2021-05-01T18:10:00+00:00
 draft = false

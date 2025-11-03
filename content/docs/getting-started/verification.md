@@ -13,6 +13,7 @@ toc = true
 top = false
 
 prev = "docs/getting-started/troubleshooting.md"
+next = "docs/getting-started/contact.md"
 +++
 
 To confirm the plugin is working correctly:
