@@ -32,3 +32,5 @@ Here’s what each option does:
 * **Enable ACP** – Activates integration with the Agentic Commerce Protocol (ACP), adding all ACP-compatible product fields automatically.
 
 * **Enable ACP Debug** – Enables a REST API endpoint for products that are not fully ACP-compatible, listing all missing fields for easier debugging.
+
+Make sure to save your changes by clicking **Save Changes** at the bottom of the page.
