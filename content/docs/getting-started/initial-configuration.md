@@ -17,11 +17,18 @@ next = "docs/getting-started/troubleshooting.md"
 +++
 
 After activation, configure the plugin:
-1. Go to **Settings > MCP Integrate** in your WordPress admin panel.
+<br>
+Go to **Settings > MCP Integrate** in your WordPress admin panel.
 
-2. **Enable MCP functionality** (Model Context Protocol).
+At the top of the page you will see Plugin Settings.
+<img src="/images/plugin_settings.png" alt="Plugin Settings" style="margin: 1rem auto;" />
 
-3. Configure **authentication settings.**
+Here’s what each option does:
 
-4. Select which **tools and resources** to expose (products, categories, posts, etc.).
+* **Keep data on uninstall** – Enable this if you want to preserve all MCP Integrate data after the plugin is uninstalled.
 
+* **Enable MCP** – Turns on the MCP REST API endpoint required for communication with your AI assistant.
+
+* **Enable ACP** – Activates integration with the Agentic Commerce Protocol (ACP), adding all ACP-compatible product fields automatically.
+
+* **Enable ACP Debug** – Enables a REST API endpoint for products that are not fully ACP-compatible, listing all missing fields for easier debugging.
