@@ -13,6 +13,7 @@ toc = true
 top = false
 
 prev = "docs/getting-started/verification.md"
+next = "docs/acp/acp-intro.md"
 +++
 
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 140%;">
