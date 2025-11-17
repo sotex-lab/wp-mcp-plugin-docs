@@ -25,10 +25,19 @@ Download and install **VSCode** from the official website: [Visual Studio Code](
 Open **VSCode** and add the **AI Toolkit extension**. For detailed instructions, visit: [AI Toolkit for Visual Studio Code](https://code.visualstudio.com/docs/intelligentapps/overview "AI Toolkit for Visual Studio Code").
 
 ### 3. Connect to MCP Integrate
-Follow the instructions in [Connect to MCP Server](https://code.visualstudio.com/docs/intelligentapps/agentbuilder "Connect to MCP Server") to link your **AI Toolkit** with **MCP Integrate.**
+Follow the instructions in the [Connect to MCP Server](https://code.visualstudio.com/docs/intelligentapps/agentbuilder "Connect to MCP Server") section to link your **AI Toolkit** with **MCP Integrate.**
 ### 4. Verify your mcp.json
 Your configuration file should look like this:
-<img src="/images/mcp_integrate_mcp.json.png" alt="mcp.json" style="margin: 1rem auto; max-width: 100%; height: auto;" />
+```json
+{
+  "servers": {
+    "mcp-integrate": {
+      "type": "http",
+      "url": "http://<your-site-domain>/wp-json/mcp-integrate/entrypoint"
+    }
+  }
+}
+```
 
 ### 5. Start chatting with your AI assistant
 Once connected, you can immediately start interacting with your **AI assistant (e.g., ChatGPT)** through **MCP Integrate** to quickly discover and explore products that interest you.
