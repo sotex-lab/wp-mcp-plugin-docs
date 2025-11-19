@@ -33,10 +33,10 @@
         <div class="col-lg-9 col-xl-8 text-center">
           <p class="lead">{{ section.extra.lead | default(value="Please start setting config.toml and adding your
             content.") | safe }}</p>
-          <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ get_url(path=section.extra.url | default(value="/")) |
-safe }}" role="button">{{ section.extra.url_button | default(value="Get started") }}</a>
-          <a class="btn btn-outline-primary btn-lg px-4 mb-2" href="{{ get_url(path='/docs/getting-started/contact/') }}"
-            role="button"> Contact us </a>
+          <a class="btn btn-primary btn-lg px-4 mb-2" href="{{ get_url(path=section.extra.url | default(value=" /")) |
+            safe }}" role="button">{{ section.extra.url_button | default(value="Get started") }}</a>
+          <a class="btn btn-outline-primary btn-lg px-4 mb-2"
+            href="{{ get_url(path='/docs/getting-started/contact/') }}" role="button"> Contact us </a>
         </div>
       </div>
     </section>
@@ -76,61 +76,66 @@ safe }}" role="button">{{ section.extra.url_button | default(value="Get started"
   </div>
 </section>
 
-<img src="{{ config.base_url }}/images/landing_page_diagram.png" alt="Landing Page Diagram" class="img-fluid d-block mx-auto my-4">
+<img src="{{ config.base_url }}/images/landing_page_diagram.png" alt="Landing Page Diagram"
+  class="img-fluid d-block mx-auto my-4">
 
 
 
 <section class="section section-sm faq-transparent">
-  <div class="container">
-    <h2 class="text-center mb-5">FAQ</h2>
+  <div class="faq-container-custom">
+    <div class="container">
+      <h2 class="text-center mb-5">FAQ</h2>
 
-    <div class="accordion" id="faqAccordion">
+      <div class="accordion" id="faqAccordion">
 
-      <div class="accordion-item bg-transparent border-0">
-        <h2 class="accordion-header" id="faq1-heading">
-          <button class="accordion-button collapsed bg-transparent" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#faq1"
-                  aria-expanded="false" aria-controls="faq1">
-            What is MCP Integrate?
-          </button>
-        </h2>
-        <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body bg-transparent">
-            MCP Integrate is a plugin that connects your WooCommerce store to AI assistants like ChatGPT and Claude via the Model Context Protocol (MCP), enabling AI-powered search, recommendations, and discovery.
+        <div class="accordion-item bg-transparent border-0">
+          <h2 class="accordion-header" id="faq1-heading">
+            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq1" aria-expanded="false" aria-controls="faq1">
+              What is MCP Integrate?
+            </button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse" aria-labelledby="faq1-heading"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body bg-transparent">
+              MCP Integrate is a plugin that connects your WooCommerce store to AI assistants like ChatGPT and Claude
+              via the Model Context Protocol (MCP), enabling AI-powered search, recommendations, and discovery.
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="accordion-item bg-transparent border-0">
-        <h2 class="accordion-header" id="faq2-heading">
-          <button class="accordion-button collapsed bg-transparent" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#faq2"
-                  aria-expanded="false" aria-controls="faq2">
-            Which AI assistants are supported?
-          </button>
-        </h2>
-        <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body bg-transparent">
-            MCP Integrate works with ChatGPT, Claude, and any MCP-compatible AI tools or agents.
+        <div class="accordion-item bg-transparent border-0">
+          <h2 class="accordion-header" id="faq2-heading">
+            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq2" aria-expanded="false" aria-controls="faq2">
+              Which AI assistants are supported?
+            </button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse" aria-labelledby="faq2-heading"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body bg-transparent">
+              MCP Integrate works with ChatGPT, Claude, and any MCP-compatible AI tools or agents.
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="accordion-item bg-transparent border-0">
-        <h2 class="accordion-header" id="faq3-heading">
-          <button class="accordion-button collapsed bg-transparent" type="button"
-                  data-bs-toggle="collapse" data-bs-target="#faq3"
-                  aria-expanded="false" aria-controls="faq3">
-            How does it handle data and privacy?
-          </button>
-        </h2>
-        <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading" data-bs-parent="#faqAccordion">
-          <div class="accordion-body bg-transparent">
-            The plugin is read-only: it only exposes public store data (products, orders, categories, posts, pages) for AI agents, keeping all customer data secure.
+        <div class="accordion-item bg-transparent border-0">
+          <h2 class="accordion-header" id="faq3-heading">
+            <button class="accordion-button collapsed bg-transparent" type="button" data-bs-toggle="collapse"
+              data-bs-target="#faq3" aria-expanded="false" aria-controls="faq3">
+              How does it handle data and privacy?
+            </button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse" aria-labelledby="faq3-heading"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body bg-transparent">
+              The plugin is read-only: it only exposes public store data (products, orders, categories, posts, pages)
+              for AI agents, keeping all customer data secure.
+            </div>
           </div>
         </div>
-      </div>
 
+      </div>
     </div>
   </div>
 </section>
