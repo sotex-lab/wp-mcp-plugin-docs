@@ -1,5 +1,5 @@
 +++
-title = "MCP INTEGRATE - Bring AI Agents into WordPress"
+title = "Bring AI Agents into WordPress"
 
 # Homepage content
 

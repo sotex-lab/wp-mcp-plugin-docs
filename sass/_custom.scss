@@ -62,3 +62,28 @@ body.dark {
 .faq-container-custom {
   margin-bottom: 6rem;
 }
+
+@media screen and (max-width: 768px) {
+   .col-lg-12.text-center{
+    padding-left: 0; 
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+   .col-lg-9.col-xl-8.text-center{
+    padding-left: 0; 
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+   .landing-diagram{
+    padding-left: 24px; 
+    padding-right: 24px;
+  }
+}
+
+.footer.text-muted.mt-5 {
+  margin: 0 !important;
+}
