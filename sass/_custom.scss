@@ -1,17 +1,17 @@
 /* Accordion general */
 .accordion-item {
-  border: 2px solid #666;      
+  border: 2px solid #666;
   border-radius: 0.6rem;
   margin-bottom: 0.4rem;
   margin-top: 0;
   overflow: hidden;
   background-color: #fff;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .accordion-header {
-  margin: 0;     
-  padding: 0;    
+  margin: 0;
+  padding: 0;
 }
 
 .accordion-button {
@@ -36,8 +36,8 @@
 body.dark {
   .accordion-item {
     background-color: #2b2b2b;
-    border: 2px solid #ddd;        
-    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
 
   .accordion-button {
@@ -54,9 +54,14 @@ body.dark {
     background-color: #2b2b2b;
     color: #eee;
   }
+
   .accordion-button::after {
-  filter: invert(1);  
-}
+    filter: invert(1);
+  }
+
+  .title-highlight {
+    color:#8ed6fb ;
+  }
 }
 
 .faq-container-custom {
@@ -64,22 +69,22 @@ body.dark {
 }
 
 @media screen and (max-width: 768px) {
-   .col-lg-12.text-center{
-    padding-left: 0; 
+  .col-lg-12.text-center {
+    padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-   .col-lg-9.col-xl-8.text-center{
-    padding-left: 0; 
+  .col-lg-9.col-xl-8.text-center {
+    padding-left: 0;
     padding-right: 0;
   }
 }
 
 @media screen and (max-width: 768px) {
-   .landing-diagram{
-    padding-left: 24px; 
+  .landing-diagram {
+    padding-left: 24px;
     padding-right: 24px;
   }
 }
@@ -92,6 +97,11 @@ body.dark {
   font-size: 1.2rem;
 }
 
-.mcp-integrate-custom-paragraph {
-  text-align: justify;
+.landing-diagram-caption {
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+
+.title-highlight {
+  color: var(--bs-primary);
 }
