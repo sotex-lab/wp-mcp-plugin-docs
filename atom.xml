@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>MCP Integrate</title>
+    <subtitle>Agentic AI for WooCommerce is an advanced plugin that connects your online store with modern AI assistants and agents through the Model Context Protocol (MCP).</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://mcp-integrate.com/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://mcp-integrate.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2021-05-01T18:20:00+00:00</updated>
+    <id>https://mcp-integrate.com/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Initial Configuration</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/initial-configuration/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/initial-configuration/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/initial-configuration/">&lt;p&gt;After activation, configure the plugin:
+&lt;br&gt;
+Go to &lt;strong&gt;Settings &amp;gt; MCP Integrate&lt;&#x2F;strong&gt; in your WordPress admin panel.&lt;&#x2F;p&gt;
+&lt;p&gt;At the top of the page you will see Plugin Settings.
+&lt;img src=&quot;&#x2F;images&#x2F;plugin_settings.png&quot; alt=&quot;Plugin Settings&quot; style=&quot;margin: 1rem auto;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Here’s what each option does:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Keep data on uninstall&lt;&#x2F;strong&gt; – Enable this if you want to preserve all MCP Integrate data after the plugin is uninstalled.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enable MCP&lt;&#x2F;strong&gt; – Turns on the MCP REST API endpoint required for communication with your AI assistant.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enable ACP&lt;&#x2F;strong&gt; – Activates integration with the Agentic Commerce Protocol (ACP), adding all ACP-compatible product fields automatically.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Enable ACP Debug&lt;&#x2F;strong&gt; – Enables a REST API endpoint for products that are not fully ACP-compatible, listing all missing fields for easier debugging.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Make sure to save your changes by clicking &lt;strong&gt;Save Changes&lt;&#x2F;strong&gt; at the bottom of the page.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Troubleshooting</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/troubleshooting/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/troubleshooting/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/troubleshooting/">&lt;h3 id=&quot;common-issues&quot;&gt;Common Issues&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Plugin won’t activate:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Verify PHP version (must be &lt;strong&gt;8.0+&lt;&#x2F;strong&gt;).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Check WordPress version (must be &lt;strong&gt;6.4+&lt;&#x2F;strong&gt;).&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Permission errors:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Check file permissions on the plugin directory.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Ensure your web server can read&#x2F;write plugin files.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;UI errors or missing interface elements:&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Run &lt;code&gt;npm install&lt;&#x2F;code&gt; and then &lt;code&gt;npm run build&lt;&#x2F;code&gt; inside the plugin directory to rebuild assets.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Verification</title>
+        <published>2021-05-01T18:20:00+00:00</published>
+        <updated>2021-05-01T18:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/verification/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/verification/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/verification/">&lt;p&gt;To confirm the plugin is working correctly:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;1-install-visual-studio-code&quot;&gt;1. Install Visual Studio Code&lt;&#x2F;h3&gt;
+&lt;p&gt;Download and install &lt;strong&gt;VSCode&lt;&#x2F;strong&gt; from the official website: &lt;a href=&quot;https:&#x2F;&#x2F;code.visualstudio.com&#x2F;&quot; title=&quot;Visual Studio Code&quot;&gt;Visual Studio Code&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-install-the-ai-toolkit-extension&quot;&gt;2. Install the AI Toolkit extension&lt;&#x2F;h3&gt;
+&lt;p&gt;Open &lt;strong&gt;VSCode&lt;&#x2F;strong&gt; and add the &lt;strong&gt;AI Toolkit extension&lt;&#x2F;strong&gt;. For detailed instructions, visit: &lt;a href=&quot;https:&#x2F;&#x2F;code.visualstudio.com&#x2F;docs&#x2F;intelligentapps&#x2F;overview&quot; title=&quot;AI Toolkit for Visual Studio Code&quot;&gt;AI Toolkit for Visual Studio Code&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3-connect-to-mcp-integrate&quot;&gt;3. Connect to MCP Integrate&lt;&#x2F;h3&gt;
+&lt;p&gt;Follow the instructions in the &lt;a href=&quot;https:&#x2F;&#x2F;code.visualstudio.com&#x2F;docs&#x2F;intelligentapps&#x2F;agentbuilder&quot; title=&quot;Connect to MCP Server&quot;&gt;Connect to MCP Server&lt;&#x2F;a&gt; section to link your &lt;strong&gt;AI Toolkit&lt;&#x2F;strong&gt; with &lt;strong&gt;MCP Integrate.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;4-verify-your-mcp-json&quot;&gt;4. Verify your mcp.json&lt;&#x2F;h3&gt;
+&lt;p&gt;Your configuration file should look like this:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;json&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-json &quot;&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;  &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;servers&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: {
+&lt;&#x2F;span&gt;&lt;span&gt;    &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;mcp-integrate&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: {
+&lt;&#x2F;span&gt;&lt;span&gt;      &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;type&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;http&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;,
+&lt;&#x2F;span&gt;&lt;span&gt;      &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;url&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;: &amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;http:&#x2F;&#x2F;&amp;lt;your-site-domain&amp;gt;&#x2F;wp-json&#x2F;mcp-integrate&#x2F;entrypoint&lt;&#x2F;span&gt;&lt;span&gt;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;  }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;5-add-a-system-prompt&quot;&gt;5. Add a system prompt&lt;&#x2F;h3&gt;
+&lt;p&gt;To help the &lt;strong&gt;AI assistant&lt;&#x2F;strong&gt; coordinate all tools more efficiently, you may provide a &lt;strong&gt;system prompt&lt;&#x2F;strong&gt;. This is &lt;strong&gt;optional&lt;&#x2F;strong&gt; — the tools will still work without it, but &lt;strong&gt;performance&lt;&#x2F;strong&gt; and &lt;strong&gt;relevance&lt;&#x2F;strong&gt; may improve.&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;DISCLAIMER&lt;&#x2F;strong&gt;  &lt;br&gt;
+The following system prompt is provided &lt;strong&gt;only as an example.&lt;&#x2F;strong&gt;
+Before using it in a &lt;strong&gt;production environment&lt;&#x2F;strong&gt;, make sure to review and validate it with your organization’s &lt;strong&gt;security and compliance teams.&lt;&#x2F;strong&gt; Requirements may vary depending on your &lt;strong&gt;infrastructure, policies, and risk profile.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;pre data-lang=&quot;text&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-text &quot;&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;&lt;span&gt;1. Always start by analyzing the user input.
+&lt;&#x2F;span&gt;&lt;span&gt;  - If the input contains multiple keywords that can map to different dimensions 
+&lt;&#x2F;span&gt;&lt;span&gt;    (brand, category, tag, or product name), then call the corresponding tools 
+&lt;&#x2F;span&gt;&lt;span&gt;    in combination immediately (for example, &amp;quot;Nike running shoes&amp;quot; = brand + category).
+&lt;&#x2F;span&gt;&lt;span&gt;    Try to extract as many keywords as possible.
+&lt;&#x2F;span&gt;&lt;span&gt;  - If the input contains only one relevant keyword, 
+&lt;&#x2F;span&gt;&lt;span&gt;    always call search_products_by_name_mcp first.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;2. After collecting results from the first call(s):
+&lt;&#x2F;span&gt;&lt;span&gt;  - If you have at least 5 results, return them.
+&lt;&#x2F;span&gt;&lt;span&gt;  - If you have fewer than 5 results, continue with fallback logic.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;3. Fallback logic (if you have less than 5 results):
+&lt;&#x2F;span&gt;&lt;span&gt;  Call the tools one by one in this order until you gather at least 5 results:
+&lt;&#x2F;span&gt;&lt;span&gt;  - search_products_by_category_mcp
+&lt;&#x2F;span&gt;&lt;span&gt;  - search_products_by_tag_mcp
+&lt;&#x2F;span&gt;&lt;span&gt;  - search_products_by_brand_mcp
+&lt;&#x2F;span&gt;&lt;span&gt;  If still fewer than 5 results, retry by splitting the input into individual 
+&lt;&#x2F;span&gt;&lt;span&gt;  keywords and repeating the process.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;4. Always combine all non-empty results, remove duplicates, and always return 
+&lt;&#x2F;span&gt;&lt;span&gt;products with their permalinks.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;5. If after all retries there are still fewer than 5 results, return what you have 
+&lt;&#x2F;span&gt;&lt;span&gt;and explain politely to the user.
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;Never expose tool names, API details, or internal system logic to the user. 
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;h3 id=&quot;6-start-chatting-with-your-ai-assistant&quot;&gt;6. Start chatting with your AI assistant&lt;&#x2F;h3&gt;
+&lt;p&gt;Once connected, you can immediately start interacting with your &lt;strong&gt;AI assistant (e.g., ChatGPT)&lt;&#x2F;strong&gt; through &lt;strong&gt;MCP Integrate&lt;&#x2F;strong&gt; to quickly discover and explore products that interest you.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Agentic Commerce Protocol</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/acp/acp-intro/"/>
+        <id>https://mcp-integrate.com/docs/acp/acp-intro/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/acp/acp-intro/">&lt;p&gt;&lt;strong&gt;Agentic Commerce Protocol (ACP)&lt;&#x2F;strong&gt; is an open standard created by &lt;strong&gt;OpenAI&lt;&#x2F;strong&gt; and &lt;strong&gt;Stripe&lt;&#x2F;strong&gt; that enables smooth interaction between AI agents, buyers, and businesses to complete purchases. It allows merchants to offer instant checkout across &lt;strong&gt;web, iOS and Android&lt;&#x2F;strong&gt;, while supporting multiple payment methods like &lt;strong&gt;cards, Apple Pay, Google Pay, Link by Stripe&lt;&#x2F;strong&gt; and more coming soon.&lt;&#x2F;p&gt;
+&lt;p&gt;With ACP, merchants keep full control of their customer relationships—handling &lt;strong&gt;orders, payments, and post-purchase experiences&lt;&#x2F;strong&gt; directly—while AI agents help guide buyers and keep them informed in real time. The protocol is &lt;strong&gt;flexible, secure&lt;&#x2F;strong&gt;, and designed to &lt;strong&gt;integrate easily&lt;&#x2F;strong&gt; with existing commerce systems, making it simple to reach &lt;strong&gt;new customers&lt;&#x2F;strong&gt; through AI-driven channels.&lt;&#x2F;p&gt;
+&lt;p&gt;Learn more on the &lt;a href=&quot;https:&#x2F;&#x2F;developers.openai.com&#x2F;commerce&quot; title=&quot;Official ACP website&quot;&gt;Official ACP website&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ACP support in MCP Integrate</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/acp/acp-support/"/>
+        <id>https://mcp-integrate.com/docs/acp/acp-support/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/acp/acp-support/">&lt;p&gt;&lt;strong&gt;MCP-Integrate&lt;&#x2F;strong&gt; plugin supports the &lt;strong&gt;Agentic Commerce Protocol (ACP)&lt;&#x2F;strong&gt;. It provides &lt;strong&gt;two dedicated endpoints&lt;&#x2F;strong&gt; to help you manage ACP integration:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;List ACP-Compatible Products&lt;&#x2F;strong&gt; – Returns all products that are currently ACP-compliant, ready to be used with AI agents for seamless purchases.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Check ACP Compliance&lt;&#x2F;strong&gt; – Identifies what is missing or required for each product to become fully ACP-compatible, helping you quickly update your catalog.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;This makes it easy to ensure your product catalog is ready for &lt;strong&gt;AI-driven&lt;&#x2F;strong&gt; commerce and &lt;strong&gt;Instant Checkout&lt;&#x2F;strong&gt; experiences.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Preparing WooCommerce products for ACP</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/acp/prepare-products/"/>
+        <id>https://mcp-integrate.com/docs/acp/prepare-products/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/acp/prepare-products/">&lt;p&gt;The &lt;strong&gt;MCP-Integrate&lt;&#x2F;strong&gt; plugin helps you make your &lt;strong&gt;WooCommerce&lt;&#x2F;strong&gt; products fully compatible with the &lt;strong&gt;Agentic Commerce Protocol (ACP).&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;To add &lt;strong&gt;product fields required by ACP&lt;&#x2F;strong&gt; that don’t exist in &lt;strong&gt;WooCommerce&lt;&#x2F;strong&gt; by default, follow these steps:&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;1-global-fields&quot;&gt;1. Global fields&lt;&#x2F;h3&gt;
+&lt;p&gt;Go to &lt;strong&gt;Settings &amp;gt; MCP Integrate&lt;&#x2F;strong&gt;, where you’ll find all global fields grouped into categories: &lt;strong&gt;Required, Conditionally required, Recommended, and Optional.&lt;&#x2F;strong&gt;
+Fill in the necessary details &lt;strong&gt;(required fields are mandatory for ACP compatibility)&lt;&#x2F;strong&gt;, then click &lt;strong&gt;Save changes&lt;&#x2F;strong&gt; at the bottom of the page.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;acp_global_fields.png&quot; alt=&quot;ACP global fields&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;2-product-specific-fields&quot;&gt;2. Product-specific fields&lt;&#x2F;h3&gt;
+&lt;p&gt;Open any product by going to &lt;strong&gt;WooCommerce &amp;gt; Products &amp;gt; All Products&lt;&#x2F;strong&gt;, then select a product to edit.
+At the bottom of the product edit page, you’ll find the &lt;strong&gt;ACP Fields&lt;&#x2F;strong&gt; section, organized by the same categories: &lt;strong&gt;Required, Conditionally required, Recommended, and Optional.&lt;&#x2F;strong&gt;
+Complete the necessary fields &lt;strong&gt;(required ones must be filled for ACP compatibility)&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;img src=&quot;&#x2F;images&#x2F;acp_product_specific_fields.png&quot; alt=&quot;ACP product specific fields&quot; style=&quot;width: 730px; height: auto; display: block; margin: 1rem auto;&quot; &#x2F;&gt;
+&lt;p&gt;Finish by clicking &lt;strong&gt;Update&lt;&#x2F;strong&gt; in the upper-right corner of the page to save your changes.
+&lt;img src=&quot;&#x2F;images&#x2F;update_product.png&quot; alt=&quot;Update product&quot; style=&quot;margin: 1rem auto;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ACP Fields in MCP Integrate</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/acp/product-fields/"/>
+        <id>https://mcp-integrate.com/docs/acp/product-fields/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/acp/product-fields/">&lt;p&gt;This section explains how &lt;strong&gt;ACP fields&lt;&#x2F;strong&gt; are handled in &lt;strong&gt;MCP Integrate&lt;&#x2F;strong&gt;. &lt;strong&gt;Agentic Commerce Protocol (ACP)&lt;&#x2F;strong&gt; defines a set of &lt;strong&gt;product data fields&lt;&#x2F;strong&gt; that enable seamless, &lt;strong&gt;AI-driven&lt;&#x2F;strong&gt; commerce. commerce. For more information about the fields, visit &lt;a href=&quot;https:&#x2F;&#x2F;developers.openai.com&#x2F;commerce&#x2F;specs&#x2F;feed&quot; title=&quot;Official ACP website&quot;&gt;Official ACP website&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;MCP Integrate provides:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Automatically mapped fields&lt;&#x2F;strong&gt; — existing WooCommerce fields that correspond directly to ACP fields.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Added fields&lt;&#x2F;strong&gt; — new fields introduced by the plugin, available as global settings or per-product fields.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Unsupported fields&lt;&#x2F;strong&gt; — ACP fields that are not yet available in WooCommerce or MCP Integrate.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;1-automatically-mapped-fields&quot;&gt;1. Automatically mapped fields&lt;&#x2F;h3&gt;
+&lt;p&gt;Here is a list of fields that are &lt;strong&gt;automatically mapped&lt;&#x2F;strong&gt; on WooCommerce fields:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;ACP Field&lt;&#x2F;th&gt;&lt;th&gt;WooCommerce Field&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;id&lt;&#x2F;td&gt;&lt;td&gt;_sku&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;gtin&lt;&#x2F;td&gt;&lt;td&gt;_global_unique_id&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;title&lt;&#x2F;td&gt;&lt;td&gt;post_title&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;description&lt;&#x2F;td&gt;&lt;td&gt;post_content&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;link&lt;&#x2F;td&gt;&lt;td&gt;site_url + post_name&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;product_category&lt;&#x2F;td&gt;&lt;td&gt;taxonomy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;brand&lt;&#x2F;td&gt;&lt;td&gt;taxonomy&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;weight&lt;&#x2F;td&gt;&lt;td&gt;_weight&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;length&lt;&#x2F;td&gt;&lt;td&gt;_length&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;width&lt;&#x2F;td&gt;&lt;td&gt;_width&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;height&lt;&#x2F;td&gt;&lt;td&gt;_height&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;dimensions&lt;&#x2F;td&gt;&lt;td&gt;_length x _width x _height&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;weight_unit&lt;&#x2F;td&gt;&lt;td&gt;woocommerce_dimension_unit&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;dimension_unit&lt;&#x2F;td&gt;&lt;td&gt;woocommerce_weight_unit&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;currency&lt;&#x2F;td&gt;&lt;td&gt;woocommerce_currency&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;image_link&lt;&#x2F;td&gt;&lt;td&gt;image_url&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;additional_image_link&lt;&#x2F;td&gt;&lt;td&gt;_product_image_gallery&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;price&lt;&#x2F;td&gt;&lt;td&gt;_price&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;sale_price&lt;&#x2F;td&gt;&lt;td&gt;_sale_price&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;sale_price_effective_date&lt;&#x2F;td&gt;&lt;td&gt;_sale_price_dates_from + _sale_price_dates_to&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;availability&lt;&#x2F;td&gt;&lt;td&gt;_stock_status&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;inventory_quantity&lt;&#x2F;td&gt;&lt;td&gt;_stock&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;item_group_id&lt;&#x2F;td&gt;&lt;td&gt;post_parent&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;item_group_title&lt;&#x2F;td&gt;&lt;td&gt;post_title&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;offer_id&lt;&#x2F;td&gt;&lt;td&gt;_sku + seller_name + _price&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;shipping&lt;&#x2F;td&gt;&lt;td&gt;multiple fields&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;item_group_title&lt;&#x2F;td&gt;&lt;td&gt;post_title&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;product_review_count&lt;&#x2F;td&gt;&lt;td&gt;_wc_review_count&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;product_review_rating&lt;&#x2F;td&gt;&lt;td&gt;_wc_average_rating&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;related_product_id&lt;&#x2F;td&gt;&lt;td&gt;_upsell_ids, _crosssell_ids&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h3 id=&quot;2-added-fields&quot;&gt;2. Added fields&lt;&#x2F;h3&gt;
+&lt;p&gt;These fields are not included in WooCommerce by default, but &lt;strong&gt;MCP Integrate&lt;&#x2F;strong&gt; adds &lt;strong&gt;full support&lt;&#x2F;strong&gt; for them:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;enable_search&lt;&#x2F;li&gt;
+&lt;li&gt;enable_checkout&lt;&#x2F;li&gt;
+&lt;li&gt;mpn&lt;&#x2F;li&gt;
+&lt;li&gt;condition&lt;&#x2F;li&gt;
+&lt;li&gt;material&lt;&#x2F;li&gt;
+&lt;li&gt;age_group&lt;&#x2F;li&gt;
+&lt;li&gt;video_link&lt;&#x2F;li&gt;
+&lt;li&gt;model_3d_link&lt;&#x2F;li&gt;
+&lt;li&gt;unit_pricing_measure &#x2F; base_measure&lt;&#x2F;li&gt;
+&lt;li&gt;pickup_method&lt;&#x2F;li&gt;
+&lt;li&gt;pickup_sla&lt;&#x2F;li&gt;
+&lt;li&gt;color&lt;&#x2F;li&gt;
+&lt;li&gt;size&lt;&#x2F;li&gt;
+&lt;li&gt;size_system&lt;&#x2F;li&gt;
+&lt;li&gt;gender&lt;&#x2F;li&gt;
+&lt;li&gt;delivery_estimate&lt;&#x2F;li&gt;
+&lt;li&gt;seller_name&lt;&#x2F;li&gt;
+&lt;li&gt;seller_url&lt;&#x2F;li&gt;
+&lt;li&gt;seller_privacy_policy&lt;&#x2F;li&gt;
+&lt;li&gt;seller_tos&lt;&#x2F;li&gt;
+&lt;li&gt;return_policy&lt;&#x2F;li&gt;
+&lt;li&gt;return_window&lt;&#x2F;li&gt;
+&lt;li&gt;warning&lt;&#x2F;li&gt;
+&lt;li&gt;age_restriction&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;See the next page for instructions on how to set them up.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;3-unsupported-fields&quot;&gt;3. Unsupported fields&lt;&#x2F;h3&gt;
+&lt;p&gt;These fields are not yet supported, but may be added in future updates:&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Conditionally required&lt;&#x2F;th&gt;&lt;th&gt;Recommended&lt;&#x2F;th&gt;&lt;th&gt;Optional&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;availability_date&lt;&#x2F;td&gt;&lt;td&gt;shipping&lt;&#x2F;td&gt;&lt;td&gt;applicable_taxes_fees&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;q_and_a&lt;&#x2F;td&gt;&lt;td&gt;pricing_trend&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;relationship_type&lt;&#x2F;td&gt;&lt;td&gt;Custom_variant1_category&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;raw_review_data&lt;&#x2F;td&gt;&lt;td&gt;Custom_variant1_option&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;geo_price&lt;&#x2F;td&gt;&lt;td&gt;Custom_variant2_category&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;geo_availability&lt;&#x2F;td&gt;&lt;td&gt;Custom_variant2_option&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;popularity_score&lt;&#x2F;td&gt;&lt;td&gt;Custom_variant3_category&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;return_rate&lt;&#x2F;td&gt;&lt;td&gt;Custom_variant3_option&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;store_review_count&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;store_review_rating&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;&lt;&#x2F;td&gt;&lt;td&gt;expiration_date&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Contact Us</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/contact/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/contact/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/contact/">&lt;div style=&quot;position: relative; width: 100%; height: 0; padding-bottom: 140%;&quot;&gt;
+  &lt;iframe 
+    src=&quot;https:&#x2F;&#x2F;docs.google.com&#x2F;forms&#x2F;d&#x2F;e&#x2F;1FAIpQLScLGaGQKiY0kZJ9Hs9e3xlYmoiL64aA6Pv2sjAqa7TiO6hPMw&#x2F;viewform?embedded=true&quot; 
+    frameborder=&quot;0&quot; 
+    marginheight=&quot;0&quot; 
+    marginwidth=&quot;0&quot;
+    style=&quot;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&quot;
+    allowfullscreen&gt;
+    Loading…
+  &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Getting Started with MCP Integrate</title>
+        <published>2021-05-01T18:10:00+00:00</published>
+        <updated>2021-05-01T18:10:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/getting-started/get-started/"/>
+        <id>https://mcp-integrate.com/docs/getting-started/get-started/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/getting-started/get-started/">&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;&#x2F;h2&gt;
+&lt;p&gt;Set up the plugin in just a few minutes.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;&#x2F;h3&gt;
+&lt;p&gt;Before you begin, make sure you have:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;WordPress 6.4&lt;&#x2F;strong&gt; or later&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;PHP 8.0&lt;&#x2F;strong&gt; or later&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;WooCommerce plugin&lt;&#x2F;strong&gt; installed and activated&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;installation-steps&quot;&gt;Installation Steps&lt;&#x2F;h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;In your WordPress admin, go to &lt;strong&gt;Plugins &amp;gt; Add Plugin &amp;gt; Find “MCP Integrate”.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &lt;strong&gt;Install Now.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;
+&lt;p&gt;Once installed, click &lt;strong&gt;Activate&lt;&#x2F;strong&gt; to enable the plugin.&lt;&#x2F;p&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What MCP Integrate does</title>
+        <published>2021-05-01T08:20:00+00:00</published>
+        <updated>2021-05-01T08:20:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/introduction/agentic-ai-does/"/>
+        <id>https://mcp-integrate.com/docs/introduction/agentic-ai-does/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/introduction/agentic-ai-does/">&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Boosts AI-First SEO&lt;&#x2F;strong&gt; – Prepares your WooCommerce store for the new era of &lt;strong&gt;AI-driven search results&lt;&#x2F;strong&gt; (ChatGPT, Claude, Google AI Overviews, etc.).&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Instant AI Connection&lt;&#x2F;strong&gt; – Connects your store to AI assistants in &lt;strong&gt;5 minutes&lt;&#x2F;strong&gt; via the &lt;strong&gt;Model Context Protocol (MCP).&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;SEO-Ready Store Data&lt;&#x2F;strong&gt; – Provides &lt;strong&gt;read-only access&lt;&#x2F;strong&gt; to products, orders, categories, shipping, payments, posts, and pages in a &lt;strong&gt;structured, AI-friendly format.&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Privacy by Design&lt;&#x2F;strong&gt; – Ensures &lt;strong&gt;zero customer data exposure&lt;&#x2F;strong&gt;, sharing only public information needed for ranking and discovery.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Future-Proof Visibility&lt;&#x2F;strong&gt; – Fully compatible with &lt;strong&gt;Claude AI&lt;&#x2F;strong&gt; and other MCP-enabled systems, keeping your store ahead in the &lt;strong&gt;next generation of search.&lt;&#x2F;strong&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>MCP Integrate</title>
+        <published>2021-05-01T08:00:00+00:00</published>
+        <updated>2021-05-01T08:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://mcp-integrate.com/docs/introduction/agentic-ai/"/>
+        <id>https://mcp-integrate.com/docs/introduction/agentic-ai/</id>
+        
+        <content type="html" xml:base="https://mcp-integrate.com/docs/introduction/agentic-ai/">&lt;p&gt;MCP Integrate is an advanced plugin that connects your online store with modern AI assistants and agents through the Model Context Protocol (MCP).&lt;&#x2F;p&gt;
+&lt;p&gt;Think of it as the future of SEO: search is shifting from traditional keywords to AI-powered answers. Users now rely on ChatGPT, Claude, and other LLMs to find products, and even Google is pushing AI-generated results first. With MCP Integrate, your WooCommerce store becomes &lt;strong&gt;AI-ready&lt;&#x2F;strong&gt;—making it easier for these systems to understand, recommend, and rank your products.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI-Optimized Visibility&lt;&#x2F;strong&gt; – Ensure your store is discoverable in AI-driven search results.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Standardized Data Acces&lt;&#x2F;strong&gt; – Products, orders, categories, shipping, payments, posts, and pages are exposed in a structured, AI-friendly way.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Secure by Design&lt;&#x2F;strong&gt; – The plugin is read-only: it gives AI systems safe access to public store data while protecting sensitive customer information.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;strong&gt;Future-Proof Marketing&lt;&#x2F;strong&gt; – Position your WooCommerce store at the top of the new AI-powered search landscape.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;MCP Integrate is more than a plugin—it’s your &lt;strong&gt;bridge to AI search and discovery.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
